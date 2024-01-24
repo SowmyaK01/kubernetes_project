@@ -1,7 +1,7 @@
 #dockerfile
 FROM centos:latest
 MAINTAINER cloud.sowmya@gmail.com
-RUN sudo rm -rF /var/cache/
+RUN rm -rf /var/cache/
 RUN yum install httpd -y \
  zip\
  unzip
